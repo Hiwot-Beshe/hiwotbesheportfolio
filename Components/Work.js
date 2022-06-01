@@ -1,11 +1,19 @@
-import { StyleSheet,Text, Linking,View, useWindowDimensions, Platform, TouchableOpacity, Pressable } from "react-native";
-import {  Image,Button, Icon } from "react-native-elements";
+import {
+	StyleSheet,
+	Text,
+	Linking,
+	View,
+	useWindowDimensions,
+	Platform,
+	TouchableOpacity,
+	Pressable,
+} from "react-native";
+import { Image, Button, Icon } from "react-native-elements";
 import Haunted from "../Components/Image/image/huanted.png";
 import Decider from "../Components/Image/image/decidr-1.png";
 import movie from "../Components/Image/image/trivia-and-chill.png";
 
 export default function Work() {
-
 	const { width, height } = useWindowDimensions();
 	const widthBreakpoint = 700;
 
@@ -77,7 +85,7 @@ export default function Work() {
 					/>
 				</View>
 			</View>
-			
+
 			<View
 				style={[
 					{
@@ -116,13 +124,12 @@ export default function Work() {
 }
 const styles = StyleSheet.create({
 	cardWrap: {
-		flex:1,
+		flex: 1,
 		marginLeft: Platform.OS == "web" ? "5%" : null,
 		marginRight: Platform.OS == "web" ? "5%" : null,
 	},
 	container: {
 		alignContent: "center",
-	
 	},
 	Image: {
 		width: 340,
@@ -154,7 +161,7 @@ const styles = StyleSheet.create({
 	},
 	btn: {
 		width: 200,
-		height: 30,
+		height: 40,
 		borderRadius: 10,
 		margin: "3%",
 		marginRight: 10,
