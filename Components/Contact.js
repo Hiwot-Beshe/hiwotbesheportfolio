@@ -36,7 +36,7 @@ function Contact() {
 					<View style={styles.inputWrap}>
 						<View style={styles.input}>
 							<Text style={styles.inputTitleText}>
-								Name* <Text>{`    `}</Text>
+								Name* <Text>{``}</Text>
 							</Text>
 
 							<TextInput
@@ -48,7 +48,7 @@ function Contact() {
 						</View>
 						<View style={styles.input}>
 							<Text style={styles.inputTitleText}>
-								Subject*<Text>{`   `}</Text>
+								Subject*<Text>{``}</Text>
 							</Text>
 							<TextInput
 								style={styles.inputText}
@@ -59,7 +59,7 @@ function Contact() {
 						</View>
 						<View style={styles.input}>
 							<Text style={styles.inputTitleText}>
-								Message<Text>{`  `}</Text>
+								Message<Text>{``}</Text>
 							</Text>
 							<TextInput
 								style={styles.inputTextMessage}
@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
 		color: "#000000",
 		height: Platform.OS == "web" ? 40 : 40,
 		width: Platform.OS == "web" ? 500 : 300,
-		marginRight: "3%",
+		marginRight: "5%",
 	},
 	inputTextMessage: {
 		fontSize: 12,
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
 		height: Platform.OS == "web" ? 150 : 200,
 		width: Platform.OS == "web" ? 500 : 300,
 		borderRadius: 5,
-		marginRight: "3%",
+		marginRight: "5%",
 		marginBottom: "1%",
 		
 	},

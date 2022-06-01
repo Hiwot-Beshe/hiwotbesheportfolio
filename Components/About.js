@@ -85,14 +85,14 @@ export default function About() {
 const styles = StyleSheet.create({
 	container: {
 		marginTop: "1%",
-		// justifyContent: "space-evenly",
+		
 	},
 	logoWrap: {
 		margin: 5,
 		
 	},
 	textWrap: {
-		margin: "1%",
+		margin: "3%",
 		width: "100%",
 		
 	},
@@ -109,8 +109,8 @@ const styles = StyleSheet.create({
 		fontWeight: "700",
 	},
 	socialImage: {
-		height: 200,
-		width: 400,
+		height: 150,
+		width: 350,
 		marginRight: "2%",
 	},
 	timeText: {

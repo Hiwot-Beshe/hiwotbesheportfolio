@@ -1,8 +1,8 @@
 import { StyleSheet,Text, Linking,View, useWindowDimensions, Platform, TouchableOpacity, Pressable } from "react-native";
 import {  Image,Button, Icon } from "react-native-elements";
-import Haunted from "./Image/image/huanted.png";
-import Decider from "./Image/image/decidr-1.png";
-import movie from "./Image/image/trivia-and-chill.png";
+import Haunted from "../Components/Image/image/huanted.png";
+import Decider from "../Components/Image/image/decidr-1.png";
+import movie from "../Components/Image/image/trivia-and-chill.png";
 
 export default function Work() {
 
@@ -116,11 +116,13 @@ export default function Work() {
 }
 const styles = StyleSheet.create({
 	cardWrap: {
+		flex:1,
 		marginLeft: Platform.OS == "web" ? "5%" : null,
 		marginRight: Platform.OS == "web" ? "5%" : null,
 	},
 	container: {
 		alignContent: "center",
+	
 	},
 	Image: {
 		width: 340,
@@ -141,19 +143,18 @@ const styles = StyleSheet.create({
 		fontWeight: "700",
 	},
 	textWrap: {
-		margin: "5%",
+		margin: "1%",
 	},
 	detailText: {
 		flexShrink: 5,
 		width: Platform.OS == "web" ? "20%" : "100%",
-		margin: "1%",
 		flexWrap: "wrap",
 		fontSize: 14,
 		fontWeight: "400",
 	},
 	btn: {
 		width: 200,
-		height:30,
+		height: 30,
 		borderRadius: 10,
 		margin: "3%",
 		marginRight: 10,

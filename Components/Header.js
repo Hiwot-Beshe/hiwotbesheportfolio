@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
 		flexDirection: "row",
 		justifyContent: Platform.OS == "web" ? "flex-start" : null,
 		marginLeft: Platform.OS == "web" ? "2%" : "1%",
-		marginRight: Platform.OS == "web" ? "25%" : "5%",
+		marginRight: Platform.OS == "web" ? "25%" : null,
 		color: "#FFF",
 	},
 	textWrap: {
