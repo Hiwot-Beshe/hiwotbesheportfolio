@@ -19,11 +19,11 @@ export default function App() {
 			style={styles.container}
 		>
 			<SafeAreaView style={styles.container}>
-				{/* <Header setPage={setPage} /> */}
+				<Header setPage={setPage} />
 				<ScrollView>
 					{page === "Home" && <Home />}
 					{page === "About" && <About />}
-					{/* {page === "Work" && <Work />} */}
+					{page === "Work" && <Work />}
 					{page === "Resume" && <Resume />}
 					{page === "Contact" && <Contact />}
 				</ScrollView>
