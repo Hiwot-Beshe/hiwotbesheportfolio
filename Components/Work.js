@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
 	},
 	detailText: {
 		flexShrink: 5,
-		width: Platform.OS == "web" ? "20%" : "100%",
+		width: Platform.OS == "web" ? "20%" : "90%",
 		flexWrap: "wrap",
 		fontSize: 14,
 		fontWeight: "400",

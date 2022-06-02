@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
 	textLogo: {
 		flexDirection: "row",
 		justifyContent: Platform.OS == "web" ? "flex-start" : null,
-		marginLeft: Platform.OS == "web" ? "2%" : "1%",
+		marginLeft: Platform.OS == "web" ? "2%" : "1.5%",
 		marginRight: Platform.OS == "web" ? "25%" : null,
 		color: "#FFF",
 	},
